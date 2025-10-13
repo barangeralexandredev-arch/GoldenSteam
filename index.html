@@ -1,116 +1,20 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Golden Steam-Alexandre Baranger</title>
-  <style>
-    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial; margin: 0; padding: 20px; background: #0f1720; color: #e6eef8; }
-    h1 { text-align: center; font-size: 2rem; margin: 24px 0; }
-    .section { margin-bottom: 32px; }
-    .grid { display: grid; gap: 12px; }
-    .grid-3 { grid-template-columns: repeat(3, 1fr); }
-    .video { aspect-ratio: 16/9; border-radius: 12px; overflow: hidden; background: #000; }
-  </style>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=Golden Steam_ Casual Arcade Puzzle Excellence.html">
+  <title>Redirection...</title>
+  <script>
+    // Redirection JavaScript (fallback)
+    window.location.replace('Golden Steam_ Casual Arcade Puzzle Excellence.html');
+  </script>
 </head>
 <body>
-  <h1>GOLDEN STEAM PRE PRODUCTION</h1>
-
-  <div class="">
-    <h2></h2>
-    <div class="grid grid-3">
-      <div class="video" id="player0"></div>
-      <div class="video" id="player1"></div>
-      <div class="video" id="player2"></div>
-      <div class="video" id="player3"></div>
-      <div class="video" id="player4"></div>
-      <div class="video" id="player5"></div>
-      <div class="video" id="player6"></div>
-      <div class="video" id="player7"></div>
-      <div class="video" id="player8"></div>
-      <div class="video" id="player9"></div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>Beta Demo</h2>
-    <div class="grid grid-3">
-      <div class="video" id="player10"></div>
-      <div class="video" id="player11"></div>
-      <div class="video" id="player12"></div>
-      <div class="video" id="player13"></div>
-      <div class="video" id="player14"></div>
-      <div class="video" id="player15"></div>
-    </div>
-  </div>
-
-  <script src="https://www.youtube.com/iframe_api"></script>
-  <script>
-    // Liste des vidéos
-    const videoIds = [
-      'a8ra54BaHAk',
-      'pxMzZpX0zEI',     
-      'JoA9mKnBx5I',
-      'eZUKzjkDqd0',
-      'YsLpSVQFaiQ',
-  
-      '43b0H3Jh3Qc',
-      'UazFB8pix8Q',
-      'DyA2z_ObVWo',
-    't8uW4I7cOpg',
-      'nDlrbm9AYIQ',
-
-      'eH0plLO3NU8',
-      '68c9BfxehOQ',
-      'QaZWNXp288o',
-      'YqpdU6f9W4s',
-      'aw18wuZvx-4'
-
-    ];
-
-    // Vitesse de lecture pour chaque vidéo (modifiable)
-    const speeds = [
-     1, // vidéo 0
-      1, // vidéo 1
-     1, // vidéo 2
-    1, // vidéo 3
-     1, // vidéo 4
-   1, // vidéo 5
-     1, // vidéo 6
-    1, // vidéo 7
-     1, // vidéo 8
-     1.75, // vidéo 9
-     1, // vidéo 10
-     1, // vidéo 11
-     1, // vidéo 12
-      1, // vidéo 13
-     1, // vidéo 14
-     1  // vidéo 15
-    ];
-
-    let players = [];
-
-    function onYouTubeIframeAPIReady() {
-      videoIds.forEach((id, i) => {
-        players[i] = new YT.Player(`player${i}`, {
-          videoId: id,
-          playerVars: { autoplay: 1, controls: 0, rel: 0, modestbranding: 1, playsinline: 1 },
-          events: {
-            'onReady': (event) => {
-              event.target.mute(); // éviter blocage autoplay
-              event.target.setPlaybackRate(speeds[i] || 1);
-              event.target.playVideo();
-            },
-            'onStateChange': (event) => {
-              if (event.data === YT.PlayerState.ENDED) {
-                event.target.seekTo(0);
-                event.target.playVideo();
-              }
-            }
-          }
-        });
-      });
-    }
-  </script>
+  <p style="text-align:center;margin-top:20%;font-family:system-ui;">
+    Redirection en cours...<br>
+    <a href="Alexandre Baranger.html">Cliquez ici si la redirection ne fonctionne pas.</a>
+  </p>
 </body>
 </html>
